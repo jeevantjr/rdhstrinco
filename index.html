@@ -4,17 +4,117 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>RDHS Trincomalee</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
-    header { background: #007bff; color: white; padding: 20px 10px; text-align: center; }
-    nav ul { list-style: none; display: flex; justify-content: center; padding: 0; margin: 0; background: #0056b3; }
-    nav ul li { margin: 0 15px; }
-    nav ul li a { color: white; text-decoration: none; font-weight: bold; }
-    .banner { background: #f4f4f4; padding: 30px; text-align: center; }
-    section { padding: 20px; max-width: 1000px; margin: auto; }
-    .services ul { list-style: disc; margin-left: 20px; }
-    footer { background: #333; color: white; padding: 20px; text-align: center; }
-  </style>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+  }
+
+  header {
+    background: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header img {
+    height: 80px;
+    vertical-align: middle;
+  }
+
+  header h1 {
+    display: inline-block;
+    margin-left: 15px;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+
+  nav {
+    background-color: #0056b3;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  nav ul li {
+    margin: 10px 15px;
+  }
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    color: #ffc107;
+  }
+
+  .banner {
+    background: #e9ecef;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+  }
+
+  section h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+
+  .services ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+
+  footer {
+    background: #343a40;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header h1 {
+      display: block;
+      margin-top: 10px;
+    }
+
+    header img {
+      height: 60px;
+    }
+  }
+</style>
+
 </head>
 <body>
 

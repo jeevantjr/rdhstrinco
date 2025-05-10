@@ -1,80 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Regional Director of Health Services - Trincomalee</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header, footer { background-color: #004080; color: white; padding: 10px 0; text-align: center; }
-    nav { background-color: #e0e0e0; padding: 10px; text-align: center; }
-    nav a { margin: 0 15px; text-decoration: none; color: #004080; }
-    main { padding: 20px; }
-    section { margin-bottom: 20px; }
-    h2 { color: #004080; }
-  </style>
+    <meta charset="UTF-8">
+    <title>RDHS Trincomalee - Official Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #005a9c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .marquee {
+            background-color: #f0f0f0;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+        nav {
+            background-color: #0073e6;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #005a9c;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Regional Director of Health Services - Trincomalee</h1>
-    <p>Under the Eastern Provincial Council, Sri Lanka</p>
-  </header>
-  <nav>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#publications">Publications</a>
-    <a href="#news">News & Events</a>
-    <a href="#notices">Notices</a>
-    <a href="#contact">Contact Us</a>
-  </nav>
-  <main>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>The Regional Director of Health Services (RDHS) in Trincomalee oversees the implementation and management of health services in the district, ensuring alignment with provincial health policies.</p>
-    </section>
-    <section id="services">
-      <h2>Services</h2>
-      <ul>
-        <li>Primary Health Care</li>
-        <li>Maternal and Child Health Services</li>
-        <li>Communicable Disease Control</li>
-        <li>Health Education and Promotion</li>
-        <li>Environmental Health Services</li>
-      </ul>
-    </section>
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul>
-        <li><a href="#">Annual Health Report 2024</a></li>
-        <li><a href="#">Strategic Health Plan 2025-2027</a></li>
-      </ul>
-    </section>
-    <section id="news">
-      <h2>News & Events</h2>
-      <article>
-        <h3>World Health Day Celebrations</h3>
-        <p>RDHS Trincomalee organized a series of health camps and awareness programs across the district on April 7, 2025, to commemorate World Health Day.</p>
-      </article>
-      <article>
-        <h3>Training Workshop for PHIs</h3>
-        <p>A training workshop on vector control was conducted for Public Health Inspectors in collaboration with the National Dengue Control Unit on March 15, 2025.</p>
-      </article>
-    </section>
-    <section id="notices">
-      <h2>Notices</h2>
-      <ul>
-        <li><a href="#">Recruitment Notice for Medical Officers - May 2025</a></li>
-        <li><a href="#">COVID-19 Vaccination Drive Schedule - June 2025</a></li>
-      </ul>
-    </section>
-    <section id="contact">
-      <h2>Contact Us</h2>
-      <p><strong>Address:</strong> RDHS Office, Trincomalee, Sri Lanka</p>
-      <p><strong>Phone:</strong> +94 26 2220102</p>
-      <p><strong>Email:</strong> rdhs.trinco@ep.gov.lk</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Regional Director of Health Services - Trincomalee</p>
-  </footer>
+
+    <header>
+        <h1>Regional Director of Health Services - Trincomalee</h1>
+    </header>
+
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left">
+            <span style="font-weight: bold; color: #007bff;">Welcome to the Official Website of the Regional Director of Health Services – Trincomalee</span>&nbsp;&nbsp;&nbsp;
+            <span style="font-weight: bold; color: #28a745;">பிராந்திய சுகாதார சேவைகள் பணிப்பாளர் பணிமனை, திருகோணமலையின் உத்தியோகபூர்வ இணையதளத்திற்கு வரவேற்கிறோம்</span>&nbsp;&nbsp;&nbsp;
+            <span style="font-weight: bold; color: #e83e8c;">ත්‍රිකුණාමලය ප්‍රාදේශීය සෞඛ්‍ය සේවා අධ්‍යක්ෂකගේ නිල වෙබ් අඩවියට සාදරයෙන් පිළිගනිමු</span>
+        </marquee>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Contact Us</a>
+        <a href="#">About</a>
+    </nav>
+
+    <main>
+        <h2>Vision</h2>
+        <p>"To be the excellent organization in Trincomalee District to create a Healthier Community that contributes towards a Healthier Nation"</p>
+
+        <h2>Mission</h2>
+        <p>"To Assure a Healthier Community by ensuring equitable access to sustainable quality healthcare service while promoting self-reliance, personal responsibility and healthy lifestyle in Trincomalee District"</p>
+
+        <h2>Our Services</h2>
+        <h3>Curative Care Services</h3>
+        <ul>
+            <li>Planning of curative healthcare services under ministry guidance</li>
+            <li>Implementing and monitoring of plans in consultation with PDHS</li>
+            <li>Maintaining medical statistics and private sector regulation</li>
+            <li>Support for emergency units, surveys, and coordination with MOH</li>
+        </ul>
+
+        <h3>Preventive Health Services</h3>
+        <ul>
+            <li>Planning, implementing, and monitoring preventive services</li>
+            <li>Support for occupational and waterborne disease prevention</li>
+            <li>Surveys, operational research, and coordination with MOH units</li>
+            <li>Services provided through 12 MOH units and public health staff</li>
+        </ul>
+
+        <h3>Other Services</h3>
+        <ul>
+            <li><strong>Maternal and Child Health:</strong> Antenatal, postnatal, immunization, growth monitoring</li>
+            <li><strong>School Health:</strong> School dental and general health services</li>
+            <li><strong>Well-women Services:</strong> Full medical check-ups and cancer screening</li>
+            <li><strong>Family Planning:</strong> Free contraceptive methods and counseling</li>
+            <li>Environmental & Occupational Health</li>
+            <li>Prevention of Communicable & Non-Communicable Diseases</li>
+            <li>Active Ageing, Mental Health & Health Promotion</li>
+            <li>Oral and Dental Health Services</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>© 2025 All Rights Reserved. Health Information Management Unit, Regional Director of Health Services, 120, Court Rd, Trincomalee.<br>
+        TP: 026 22 23 117 | Email: <a href="mailto:trincomoinfo@gmail.com" style="color: #00bfff;">trincomoinfo@gmail.com</a></p>
+    </footer>
+
 </body>
 </html>

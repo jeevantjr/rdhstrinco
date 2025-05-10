@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Regional Director of Health Services - Trincomalee</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, footer { background-color: #004080; color: white; padding: 10px 0; text-align: center; }
+    nav { background-color: #e0e0e0; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; text-decoration: none; color: #004080; }
+    main { padding: 20px; }
+    section { margin-bottom: 20px; }
+    h2 { color: #004080; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Regional Director of Health Services - Trincomalee</h1>
+    <p>Under the Eastern Provincial Council, Sri Lanka</p>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#publications">Publications</a>
+    <a href="#news">News & Events</a>
+    <a href="#notices">Notices</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>The Regional Director of Health Services (RDHS) in Trincomalee oversees the implementation and management of health services in the district, ensuring alignment with provincial health policies.</p>
+    </section>
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>Primary Health Care</li>
+        <li>Maternal and Child Health Services</li>
+        <li>Communicable Disease Control</li>
+        <li>Health Education and Promotion</li>
+        <li>Environmental Health Services</li>
+      </ul>
+    </section>
+    <section id="publications">
+      <h2>Publications</h2>
+      <ul>
+        <li><a href="#">Annual Health Report 2024</a></li>
+        <li><a href="#">Strategic Health Plan 2025-2027</a></li>
+      </ul>
+    </section>
+    <section id="news">
+      <h2>News & Events</h2>
+      <article>
+        <h3>World Health Day Celebrations</h3>
+        <p>RDHS Trincomalee organized a series of health camps and awareness programs across the district on April 7, 2025, to commemorate World Health Day.</p>
+      </article>
+      <article>
+        <h3>Training Workshop for PHIs</h3>
+        <p>A training workshop on vector control was conducted for Public Health Inspectors in collaboration with the National Dengue Control Unit on March 15, 2025.</p>
+      </article>
+    </section>
+    <section id="notices">
+      <h2>Notices</h2>
+      <ul>
+        <li><a href="#">Recruitment Notice for Medical Officers - May 2025</a></li>
+        <li><a href="#">COVID-19 Vaccination Drive Schedule - June 2025</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> RDHS Office, Trincomalee, Sri Lanka</p>
+      <p><strong>Phone:</strong> +94 26 2220102</p>
+      <p><strong>Email:</strong> rdhs.trinco@ep.gov.lk</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Regional Director of Health Services - Trincomalee</p>
+  </footer>
+</body>
+</html>

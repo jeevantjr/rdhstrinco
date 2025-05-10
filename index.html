@@ -1,169 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>RDHS Trincomalee</title>
-<style>
-  * { box-sizing: border-box; }
-
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f8f9fa;
-    line-height: 1.6;
-  }
-
-  header {
-    background: #007bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-
-  header img {
-    height: 80px;
-    vertical-align: middle;
-  }
-
-  header h1 {
-    display: inline-block;
-    margin-left: 15px;
-    vertical-align: middle;
-    font-size: 24px;
-  }
-
-  nav {
-    background-color: #0056b3;
-  }
-
-  nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    flex-wrap: wrap;
-  }
-
-  nav ul li {
-    margin: 10px 15px;
-  }
-
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s ease;
-  }
-
-  nav ul li a:hover {
-    color: #ffc107;
-  }
-
-  .banner {
-    background: #e9ecef;
-    padding: 20px;
-    text-align: center;
-    font-size: 18px;
-  }
-
-  section {
-    padding: 40px 20px;
-    max-width: 1000px;
-    margin: auto;
-    background: white;
-    margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
-    border-radius: 8px;
-  }
-
-  section h2 {
-    color: #007bff;
-    margin-bottom: 15px;
-  }
-
-  .services ul {
-    list-style: disc;
-    margin-left: 20px;
-  }
-
-  footer {
-    background: #343a40;
-    color: white;
-    padding: 30px 20px;
-    text-align: center;
-    font-size: 14px;
-  }
-
-  @media (max-width: 768px) {
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    header h1 {
-      display: block;
-      margin-top: 10px;
-    }
-
-    header img {
-      height: 60px;
-    }
-  }
-</style>
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
   <header>
-    <h1>Regional Director of Health Services - Trincomalee</h1>
+    <img src="images/logo.png" alt="RDHS Logo">
+    <h1>Regional Director of Health Services – Trincomalee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="units.html">Units</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="#vision">Vision</a></li>
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <main>
+    <!-- Banner Image -->
+    <section class="banner">
+      <img src="images/banner.jpg" alt="Health Services Banner">
+    </section>
 
-  <div class="banner">
-    <marquee behavior="scroll" direction="left">
-      <strong>Welcome in English | தமிழில் வரவேற்கின்றோம் | සිංහල සාදරයෙන් පිළිගනිමු</strong>
-    </marquee>
-  </div>
+    <!-- About Us Preview -->
+    <section class="about-preview">
+      <h2>About Us</h2>
+      <p>Welcome to the official website of the Regional Director of Health Services – Trincomalee. Our mission is to provide equitable access to quality healthcare services...</p>
+      <a href="about.html">Read More</a>
+    </section>
 
-  <section id="vision">
-    <h2>Our Vision</h2>
-    <p>"To be the excellent organization in Trincomalee District to create a Healthier Community that contributes towards a Healthier Nation."</p>
-  </section>
+    <!-- Services Preview -->
+    <section class="services-preview">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Curative Care Services</li>
+        <li>Preventive Health Services</li>
+        <li>Maternal and Child Health</li>
+        <!-- Add more services as needed -->
+      </ul>
+      <a href="services.html">View All Services</a>
+    </section>
 
-  <section id="mission">
-    <h2>Our Mission</h2>
-    <p>"To assure a Healthier Community by ensuring equitable access to sustainable quality healthcare services while promoting self-reliance, personal responsibility and a healthy lifestyle in Trincomalee District."</p>
-  </section>
+    <!-- Latest News -->
+    <section class="latest-news">
+      <h2>Latest News & Events</h2>
+      <article>
+        <h3>Health Camp in Trincomalee</h3>
+        <p>A successful health camp was conducted in the rural areas of Trincomalee...</p>
+        <a href="news.html">Read More</a>
+      </article>
+      <!-- Add more news articles as needed -->
+    </section>
+  </main>
 
-  <section id="services" class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Curative Care Services</li>
-      <li>Preventive Health Services</li>
-      <li>Maternal and Child Health</li>
-      <li>School Health & Well-women Services</li>
-      <li>Family Planning</li>
-      <li>Mental Health, Oral Health & Health Promotion</li>
-    </ul>
-  </section>
-
-  <footer id="contact">
-    <p>📍 120, Court Rd, Trincomalee<br>
-    ☎️ 026 22 23 117 | 📧 trincomoinfo@gmail.com<br>
-    © 2025 All Rights Reserved - Health Information Management Unit</p>
+  <footer>
+    <p>© 2025 All Rights Reserved. Health Information Management Unit, Regional Director of Health Services, 120, Court Rd, Trincomalee.</p>
+    <p>Phone: 026 22 23 117 | Email: trincomoinfo@gmail.com</p>
   </footer>
-
 </body>
 </html>
